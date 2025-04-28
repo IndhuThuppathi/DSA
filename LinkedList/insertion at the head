@@ -1,0 +1,13 @@
+code:
+
+
+class Solution {
+public:
+    ListNode* insertAtHead(ListNode* &head, int X) {
+
+        ListNode* newNode=new ListNode(x);
+        newNode->next=head;
+        head=newNode;
+        return head;
+    }
+};
